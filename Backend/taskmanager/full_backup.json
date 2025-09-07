@@ -1,0 +1,4233 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "anime"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "season"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "episode"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "voiceover"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "videoquality"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "movievoiceover"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "main",
+    "model": "movievideoquality"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "22o4dr0he9w04yt2ivo21rw7twj0ubu1",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllxEtYWJT1nsHa9zySAbCmfCnF3EikFtG9m3ttEXpchrjOmOKq5GGdOv5tweqLsQB9c7tWmWpZpFLsr9qCzvVXF63q4fwcDz8NWc3ACuI6ZFAxwHyinJkPVn530IEdNm3KAp66XtgkE9YossiXBm88XJUk5fw:1urzCc:LpP_BZM6um-G74LRukXGD0yewVTRkWr3_aVHT6-geLg",
+    "expire_date": "2025-09-12T13:31:38.297Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6gv001gt5xj5k9ol2ripbk87gvzhkwkl",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllxEtYWJT1nsHa9zySAbCmfCnF3EikFtG9m3ttEXpchrjOmOKq5GGdOv5tweqLsQB9c7tWmWpZpFLsr9qCzvVXF63q4fwcDz8NWc3ACuI6ZFAxwHyinJkPVn530IEdNm3KAp66XtgkE9YossiXBm88XJUk5fw:1uri8q:guS4iQ-H-4d4VOvSsUrQzW2vtUc9MJyfOvSLt10mxWA",
+    "expire_date": "2025-09-11T19:18:36.331Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "76a9v3w630v5y4n96jkhvq4301npt77z",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllxEtYWJT1nsHa9zySAbCmfCnF3EikFtG9m3ttEXpchrjOmOKq5GGdOv5tweqLsQB9c7tWmWpZpFLsr9qCzvVXF63q4fwcDz8NWc3ACuI6ZFAxwHyinJkPVn530IEdNm3KAp66XtgkE9YossiXBm88XJUk5fw:1urx52:SXU6gvuF5bi13vcHV-m4e8LqVttI-vQHl12APV53Ax8",
+    "expire_date": "2025-09-12T11:15:40.926Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7bmz69jjoyq8j5hbh756525fk8xjxd4w",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllxEtYWJT1nsHa9zySAbCmfCnF3EikFtG9m3ttEXpchrjOmOKq5GGdOv5tweqLsQB9c7tWmWpZpFLsr9qCzvVXF63q4fwcDz8NWc3ACuI6ZFAxwHyinJkPVn530IEdNm3KAp66XtgkE9YossiXBm88XJUk5fw:1upocT:vijetWW3YEfOEeUihgGY5QCGIaWjtpcbOtDWtvpCXcA",
+    "expire_date": "2025-09-06T13:49:21.834Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "spd5z9dxyye6f6nn0dtkylc8nb3mxmr6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllxEtYWJT1nsHa9zySAbCmfCnF3EikFtG9m3ttEXpchrjOmOKq5GGdOv5tweqLsQB9c7tWmWpZpFLsr9qCzvVXF63q4fwcDz8NWc3ACuI6ZFAxwHyinJkPVn530IEdNm3KAp66XtgkE9YossiXBm88XJUk5fw:1uutA4:u-9nXxyo9cudcCpZ19wI43pyiKxhQGFhDtXWNuu-cIU",
+    "expire_date": "2025-09-20T13:41:00.545Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xy949eo6jofcf3ddcn26nsfvlq33ks9p",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllxEtYWJT1nsHa9zySAbCmfCnF3EikFtG9m3ttEXpchrjOmOKq5GGdOv5tweqLsQB9c7tWmWpZpFLsr9qCzvVXF63q4fwcDz8NWc3ACuI6ZFAxwHyinJkPVn530IEdNm3KAp66XtgkE9YossiXBm88XJUk5fw:1uutGW:-xPcyph7ZactmpFs444cyF9vDS4r64jyBlrgqLUvVHc",
+    "expire_date": "2025-09-20T13:47:40.652Z"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 1,
+  "fields": {
+    "title": "Наруто",
+    "description": "Однажды демон напал на деревню, в которой родился мальчик Наруто. Чтобы остановить демона, глава поселения запечатал его внутри Наруто, но сам при этом погиб. Прошли годы. Наруто вырос, став неусидчивым и пока неопытным ниндзя. Он всё ещё живёт в родной деревне, где его не принимают и стараются избегать.",
+    "poster": "posters/300x450.png"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 4,
+  "fields": {
+    "title": "Стальной алхимик",
+    "description": "Действие сюжета происходит в стране Аместрис, где алхимия широко распространена как точная наука. Мир «Стального алхимика» по своему антуражу схож с эпохой промышленной революции. Два главных героя, братья Эдвард и Альфонс Элрики, потерпев провал в попытке с помощью алхимии воскресить свою умершую мать, ищут легендарный философский камень, чтобы вернуть руку и ногу Эдварда и тело Альфонса, утраченные в ходе неудачной трансмутации.",
+    "poster": "posters/Full_metal_alchemist_wallpaper.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 19,
+  "fields": {
+    "title": "Аниме 1",
+    "description": "Описание для аниме 1",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 20,
+  "fields": {
+    "title": "Аниме 2",
+    "description": "Описание для аниме 2",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 21,
+  "fields": {
+    "title": "Аниме 3",
+    "description": "Описание для аниме 3",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 22,
+  "fields": {
+    "title": "Аниме 4",
+    "description": "Описание для аниме 4",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 23,
+  "fields": {
+    "title": "Аниме 5",
+    "description": "Описание для аниме 5",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 24,
+  "fields": {
+    "title": "Аниме 6",
+    "description": "Описание для аниме 6",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 25,
+  "fields": {
+    "title": "Аниме 7",
+    "description": "Описание для аниме 7",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 26,
+  "fields": {
+    "title": "Аниме 8",
+    "description": "Описание для аниме 8",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 27,
+  "fields": {
+    "title": "Аниме 9",
+    "description": "Описание для аниме 9",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 28,
+  "fields": {
+    "title": "Аниме 10",
+    "description": "Описание для аниме 10",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 29,
+  "fields": {
+    "title": "Аниме 11",
+    "description": "Описание для аниме 11",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 30,
+  "fields": {
+    "title": "Аниме 12",
+    "description": "Описание для аниме 12",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 31,
+  "fields": {
+    "title": "Аниме 13",
+    "description": "Описание для аниме 13",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 32,
+  "fields": {
+    "title": "Аниме 14",
+    "description": "Описание для аниме 14",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 33,
+  "fields": {
+    "title": "Аниме 15",
+    "description": "Описание для аниме 15",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 34,
+  "fields": {
+    "title": "Аниме 16",
+    "description": "Описание для аниме 16",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 35,
+  "fields": {
+    "title": "Аниме 17",
+    "description": "Описание для аниме 17",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 36,
+  "fields": {
+    "title": "Аниме 18",
+    "description": "Описание для аниме 18",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 37,
+  "fields": {
+    "title": "Аниме 19",
+    "description": "Описание для аниме 19",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 38,
+  "fields": {
+    "title": "Аниме 20",
+    "description": "Описание для аниме 20",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 39,
+  "fields": {
+    "title": "Аниме 21",
+    "description": "Описание для аниме 21",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 40,
+  "fields": {
+    "title": "Аниме 22",
+    "description": "Описание для аниме 22",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 41,
+  "fields": {
+    "title": "Аниме 23",
+    "description": "Описание для аниме 23",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 42,
+  "fields": {
+    "title": "Аниме 24",
+    "description": "Описание для аниме 24",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 43,
+  "fields": {
+    "title": "Аниме 25",
+    "description": "Описание для аниме 25",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 44,
+  "fields": {
+    "title": "Аниме 26",
+    "description": "Описание для аниме 26",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 45,
+  "fields": {
+    "title": "Аниме 27",
+    "description": "Описание для аниме 27",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 46,
+  "fields": {
+    "title": "Аниме 28",
+    "description": "Описание для аниме 28",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 47,
+  "fields": {
+    "title": "Аниме 29",
+    "description": "Описание для аниме 29",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.anime",
+  "pk": 48,
+  "fields": {
+    "title": "Аниме 30",
+    "description": "Описание для аниме 30",
+    "poster": "season_posters/maxresdefault.jpg"
+  }
+},
+{
+  "model": "main.season",
+  "pk": 1,
+  "fields": {
+    "anime": 1,
+    "number": 2,
+    "title": "Наруто: Ураганные хроники",
+    "poster": "season_posters/Naruto_poster.jpg",
+    "type": "season"
+  }
+},
+{
+  "model": "main.season",
+  "pk": 4,
+  "fields": {
+    "anime": 1,
+    "number": 1,
+    "title": "Наруто",
+    "poster": "season_posters/Naruto.jpg",
+    "type": "season"
+  }
+},
+{
+  "model": "main.season",
+  "pk": 5,
+  "fields": {
+    "anime": 4,
+    "number": 1,
+    "title": "Стальной алхимик",
+    "poster": "season_posters/загружцвценное.jpg",
+    "type": "season"
+  }
+},
+{
+  "model": "main.season",
+  "pk": 6,
+  "fields": {
+    "anime": 1,
+    "number": 1,
+    "title": "Наруто 1 Фильм",
+    "poster": "season_posters/YnCdpgQRkFE.jpg",
+    "type": "movie"
+  }
+},
+{
+  "model": "main.season",
+  "pk": 8,
+  "fields": {
+    "anime": 1,
+    "number": 2,
+    "title": "Наруто 2 Фильм",
+    "poster": "season_posters/378839_zaZKhed.jpg",
+    "type": "movie"
+  }
+},
+{
+  "model": "main.episode",
+  "pk": 1,
+  "fields": {
+    "season": 1,
+    "number": 1,
+    "title": "Возвращение домой"
+  }
+},
+{
+  "model": "main.episode",
+  "pk": 4,
+  "fields": {
+    "season": 1,
+    "number": 2,
+    "title": "Акацуки начинают действовать"
+  }
+},
+{
+  "model": "main.episode",
+  "pk": 5,
+  "fields": {
+    "season": 4,
+    "number": 1,
+    "title": "Знакомьтесь, Узумаки Наруто!"
+  }
+},
+{
+  "model": "main.episode",
+  "pk": 6,
+  "fields": {
+    "season": 5,
+    "number": 1,
+    "title": "Бросившие вызов солнцу"
+  }
+},
+{
+  "model": "main.episode",
+  "pk": 7,
+  "fields": {
+    "season": 1,
+    "number": 54,
+    "title": "Кошмары"
+  }
+},
+{
+  "model": "main.episode",
+  "pk": 8,
+  "fields": {
+    "season": 6,
+    "number": 1,
+    "title": "Наруто: Ниндзя в стране снега"
+  }
+},
+{
+  "model": "main.episode",
+  "pk": 10,
+  "fields": {
+    "season": 8,
+    "number": 2,
+    "title": "Наруто 2: Великая битва"
+  }
+},
+{
+  "model": "main.voiceover",
+  "pk": 1,
+  "fields": {
+    "episode": 1,
+    "name": "Ancord"
+  }
+},
+{
+  "model": "main.voiceover",
+  "pk": 4,
+  "fields": {
+    "episode": 4,
+    "name": "Ancord"
+  }
+},
+{
+  "model": "main.voiceover",
+  "pk": 5,
+  "fields": {
+    "episode": 5,
+    "name": "2x2"
+  }
+},
+{
+  "model": "main.voiceover",
+  "pk": 6,
+  "fields": {
+    "episode": 6,
+    "name": "Дубляж"
+  }
+},
+{
+  "model": "main.voiceover",
+  "pk": 7,
+  "fields": {
+    "episode": 7,
+    "name": "Ancord"
+  }
+},
+{
+  "model": "main.voiceover",
+  "pk": 8,
+  "fields": {
+    "episode": 8,
+    "name": "Дубляж"
+  }
+},
+{
+  "model": "main.voiceover",
+  "pk": 10,
+  "fields": {
+    "episode": 10,
+    "name": "Дубляж"
+  }
+},
+{
+  "model": "main.videoquality",
+  "pk": 13,
+  "fields": {
+    "voiceover": 1,
+    "video_file": "videos/1.mp4"
+  }
+},
+{
+  "model": "main.videoquality",
+  "pk": 14,
+  "fields": {
+    "voiceover": 4,
+    "video_file": "videos/2.mp4"
+  }
+},
+{
+  "model": "main.videoquality",
+  "pk": 15,
+  "fields": {
+    "voiceover": 7,
+    "video_file": "videos/54.mp4"
+  }
+},
+{
+  "model": "main.videoquality",
+  "pk": 16,
+  "fields": {
+    "voiceover": 8,
+    "video_file": "videos/Naruto_movie_1_VaJo9Oh.mp4"
+  }
+},
+{
+  "model": "main.videoquality",
+  "pk": 17,
+  "fields": {
+    "voiceover": 5,
+    "video_file": "videos/Naruto_001.mp4"
+  }
+},
+{
+  "model": "main.videoquality",
+  "pk": 18,
+  "fields": {
+    "voiceover": 6,
+    "video_file": "videos/Стальной_Алхимик-1.mp4"
+  }
+},
+{
+  "model": "main.videoquality",
+  "pk": 19,
+  "fields": {
+    "voiceover": 10,
+    "video_file": "videos/naruto_movie_2.mp4"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add anime",
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "codename": "add_anime"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change anime",
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "codename": "change_anime"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete anime",
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "codename": "delete_anime"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view anime",
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "codename": "view_anime"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add season",
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "codename": "add_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change season",
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "codename": "change_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete season",
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "codename": "delete_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view season",
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "codename": "view_season"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add episode",
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "codename": "add_episode"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change episode",
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "codename": "change_episode"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete episode",
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "codename": "delete_episode"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view episode",
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "codename": "view_episode"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add voice over",
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "codename": "add_voiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change voice over",
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "codename": "change_voiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete voice over",
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "codename": "delete_voiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view voice over",
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "codename": "view_voiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add video quality",
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "codename": "add_videoquality"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change video quality",
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "codename": "change_videoquality"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete video quality",
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "codename": "delete_videoquality"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view video quality",
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "codename": "view_videoquality"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add movie",
+    "content_type": [
+      "main",
+      "movie"
+    ],
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change movie",
+    "content_type": [
+      "main",
+      "movie"
+    ],
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete movie",
+    "content_type": [
+      "main",
+      "movie"
+    ],
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view movie",
+    "content_type": [
+      "main",
+      "movie"
+    ],
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add movie voice over",
+    "content_type": [
+      "main",
+      "movievoiceover"
+    ],
+    "codename": "add_movievoiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change movie voice over",
+    "content_type": [
+      "main",
+      "movievoiceover"
+    ],
+    "codename": "change_movievoiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete movie voice over",
+    "content_type": [
+      "main",
+      "movievoiceover"
+    ],
+    "codename": "delete_movievoiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view movie voice over",
+    "content_type": [
+      "main",
+      "movievoiceover"
+    ],
+    "codename": "view_movievoiceover"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add movie video quality",
+    "content_type": [
+      "main",
+      "movievideoquality"
+    ],
+    "codename": "add_movievideoquality"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change movie video quality",
+    "content_type": [
+      "main",
+      "movievideoquality"
+    ],
+    "codename": "change_movievideoquality"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete movie video quality",
+    "content_type": [
+      "main",
+      "movievideoquality"
+    ],
+    "codename": "delete_movievideoquality"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view movie video quality",
+    "content_type": [
+      "main",
+      "movievideoquality"
+    ],
+    "codename": "view_movievideoquality"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$qLiXvlIY7d1oeU3iO4IZyk$YeMgpQ0VslWTfqaZgRo9sxJ4DexodME9MmSmxe7fxb8=",
+    "last_login": "2025-09-06T13:47:40.648Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-08-23T13:33:27.131Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-08-23T13:54:51.396Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-08-23T13:55:27.644Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-08-23T13:55:57.797Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — Серия 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-08-23T13:56:18.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — Серия 1 [Ancord]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-08-23T13:58:56.157Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-08-23T13:59:14.955Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-08-23T13:59:48.037Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u0435\\u0437\\u043e\\u043d\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-23T14:00:00.513Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — Серия 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-23T14:00:11.162Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — Серия 1 [Ancord]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-23T14:00:26.086Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — Серия 1 [Ancord] — 480",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-23T14:54:22.729Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "2",
+    "object_repr": "Тест",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-23T14:54:30.847Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "2",
+    "object_repr": "Тест — Сезон 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-23T14:54:36.678Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "2",
+    "object_repr": "Тест — Сезон 1 — Серия 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-23T14:54:42.616Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "2",
+    "object_repr": "Тест — Сезон 1 — Серия 1 [ввцвцв]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-23T14:54:53.851Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "2",
+    "object_repr": "Тест — Сезон 1 — Серия 1 [ввцвцв] — 341",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-23T15:37:56.755Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "2",
+    "object_repr": "Тест",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-23T15:38:13.421Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "3",
+    "object_repr": "Test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-23T15:38:29.447Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "3",
+    "object_repr": "Test — Сезон 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-23T15:43:27.566Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "3",
+    "object_repr": "Test — Сезон 1 — Серия 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-23T15:43:37.736Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "3",
+    "object_repr": "Test — Сезон 1 — Серия 1 [Test]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-23T15:43:49.661Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "3",
+    "object_repr": "Test — Сезон 1 — Серия 1 [Test] — 322",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-24T12:24:03.935Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-24T12:52:52.191Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-24T13:03:24.332Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-24T13:08:10.752Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u0435\\u0437\\u043e\\u043d\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-08-24T13:08:14.202Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u0435\\u0437\\u043e\\u043d\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-08-25T09:26:31.583Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — Серия 1 [Ancord] — 480",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-08-25T10:53:20.914Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — Серия 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-08-25T10:54:09.312Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — Серия 2 [Ancord]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-08-25T10:54:24.311Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — Серия 2 [Ancord] — 480",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-08-25T11:26:18.981Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "4",
+    "object_repr": "4Наруто — Сезон 2 — Серия 2",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-08-28T11:07:30.818Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "3",
+    "object_repr": "3Test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-08-28T11:13:58.317Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-08-28T11:14:32.783Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "5",
+    "object_repr": "5Наруто — Сезон 1 — Серия 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-08-28T11:15:23.551Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "5",
+    "object_repr": "5Наруто — Сезон 1 — Серия 1 [2x2]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-08-28T11:15:46.235Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "5",
+    "object_repr": "5Наруто — Сезон 1 — Серия 1 [2x2] — 480",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-08-28T11:50:35.198Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "4",
+    "object_repr": "4Стальной алхимик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-08-28T11:51:04.040Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "5",
+    "object_repr": "5Стальной алхимик — Сезон 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-08-28T11:51:31.771Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "4",
+    "object_repr": "4Стальной алхимик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-08-28T11:52:25.135Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "5",
+    "object_repr": "5Стальной алхимик — Сезон 1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0441\\u0435\\u0437\\u043e\\u043d\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-08-28T11:52:33.743Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "6",
+    "object_repr": "65Стальной алхимик — Сезон 1 — Серия 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-08-28T11:53:42.584Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "6",
+    "object_repr": "65Стальной алхимик — Сезон 1 — Серия 1 [Дубляж]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-08-28T11:54:05.027Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "65Стальной алхимик — Сезон 1 — Серия 1 [Дубляж] — 480",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-08-28T14:08:41.348Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "1",
+    "object_repr": "1Однажды демон напал на деревню, в которой родился мальчик Наруто. Чтобы остановить демона, глава поселения запечатал его внутри Наруто, но сам при этом погиб. Прошли годы. Наруто вырос, став неусидчи",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0430\\u043d\\u0438\\u043c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-08-28T14:14:56.975Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "5",
+    "object_repr": "5цвцвц",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-08-28T14:15:06.145Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "6",
+    "object_repr": "6цацацаца",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-08-28T14:15:14.468Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "7",
+    "object_repr": "7пкпкпкпкпк",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-08-28T14:23:01.272Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "1",
+    "object_repr": "1Наруто",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0430\\u043d\\u0438\\u043c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-08-28T14:23:11.851Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "7",
+    "object_repr": "7пкпкпкпкпк",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-08-28T14:23:11.851Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "6",
+    "object_repr": "6цацацаца",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-08-28T14:23:11.851Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "5",
+    "object_repr": "5цвцвц",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-08-28T19:19:37.961Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Сезон 2 — Серия 54",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-08-28T19:19:54.644Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Сезон 2 — Серия 54 [Ancord]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-08-28T19:20:43.117Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Сезон 2 — Серия 54 [Ancord] — 480",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-08-28T19:41:27.543Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "8",
+    "object_repr": "Я переродился торговым автоматом и скитаюсь по лабиринту 2 сезон",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-08-28T20:08:52.551Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "9",
+    "object_repr": "black",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-08-28T20:09:12.674Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "10",
+    "object_repr": "<div class=\"border border-black  rounded-4xl p-6 bg-[#cccccc]\">             <img src=\"/naruto.svg\" class=\"w-15 flex flex-col item-center justify-center\" alt=\"\">         </div>",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-08-28T20:09:29.211Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "11",
+    "object_repr": "<div class=\"border border-black  rounded-4xl p-6 bg-[#cccccc]\">             <img src=\"/naruto.svg\" class=\"w-15 flex flex-col item-center justify-center\" alt=\"\">         </div>",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-08-28T20:09:33.874Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "12",
+    "object_repr": "<div class=\"border border-black  rounded-4xl p-6 bg-[#cccccc]\">             <img src=\"/naruto.svg\" class=\"w-15 flex flex-col item-center justify-center\" alt=\"\">         </div>",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-08-28T20:09:56.163Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "8",
+    "object_repr": "Я переродился торговым автоматом и скитаюсь по лабиринту 2 сезон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-08-28T21:18:02.417Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "12",
+    "object_repr": "<div class=\"border border-black  rounded-4xl p-6 bg-[#cccccc]\">             <img src=\"/naruto.svg\" class=\"w-15 flex flex-col item-center justify-center\" alt=\"\">         </div>",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-08-28T21:18:02.417Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "11",
+    "object_repr": "<div class=\"border border-black  rounded-4xl p-6 bg-[#cccccc]\">             <img src=\"/naruto.svg\" class=\"w-15 flex flex-col item-center justify-center\" alt=\"\">         </div>",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-08-28T21:18:02.417Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "10",
+    "object_repr": "<div class=\"border border-black  rounded-4xl p-6 bg-[#cccccc]\">             <img src=\"/naruto.svg\" class=\"w-15 flex flex-col item-center justify-center\" alt=\"\">         </div>",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-08-28T21:18:02.417Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "9",
+    "object_repr": "black",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-08-28T21:18:02.417Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "8",
+    "object_repr": "Я переродился торговым автоматом и скитаюсь по лабиринту 2 сезон",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-08-29T09:58:38.687Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "13",
+    "object_repr": "flex flex-col items-center justify-center",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-08-29T10:19:45.474Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-08-29T10:20:01.023Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "4",
+    "object_repr": "Стальной алхимик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-08-29T10:22:06.938Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "4",
+    "object_repr": "Стальной алхимик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-08-29T10:22:12.759Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-08-29T10:22:31.067Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "13",
+    "object_repr": "flex flex-col items-center justify-center",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Poster\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-08-29T10:25:13.769Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "13",
+    "object_repr": "flex flex-col items-center justify-centerflex flex-col items-center justify-centerflex flex-col items-center justify-centerflex flex-col items-center justify-centerflex flex-col items-center justify-c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0430\\u043d\\u0438\\u043c\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-08-30T16:09:08.961Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "13",
+    "object_repr": "flex flex-col items-center justify-centerflex flex-col items-center justify-centerflex flex-col items-center justify-centerflex flex-col items-center justify-centerflex flex-col items-center justify-c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-09-01T07:59:56.687Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "6",
+    "object_repr": "Наруто — Фильм 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-09-01T08:01:32.420Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — Серия 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-09-01T08:06:24.121Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-09-01T08:07:50.437Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — 1080",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-09-01T11:31:21.862Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "14",
+    "object_repr": "Аниме 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-09-01T11:35:55.628Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "18",
+    "object_repr": "Аниме 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-09-01T11:35:55.628Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "17",
+    "object_repr": "Аниме 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-09-01T11:35:55.628Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "16",
+    "object_repr": "Аниме 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-09-01T11:35:55.628Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "anime"
+    ],
+    "object_id": "15",
+    "object_repr": "Аниме 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-09-03T11:59:23.857Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1_DOXGxZP.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-09-03T12:01:32.142Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-09-03T12:02:49.396Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-09-03T12:04:08.363Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-09-03T12:05:46.913Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-09-03T12:09:55.864Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-09-03T12:13:00.474Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1_kTYnaOg.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-09-03T12:14:05.524Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1_X1LNppk.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-09-03T12:21:42.195Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-09-03T12:25:39.180Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-09-03T12:27:02.707Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-09-03T12:28:26.653Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-09-03T12:32:08.479Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 сезон [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-09-03T14:32:54.252Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Сезон 2 — 54 сезон [Ancord] — videos/54.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-09-03T14:34:24.784Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-09-03T14:34:51.405Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — 2 серия [Ancord] — videos/2.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-09-04T13:20:54.376Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\", \"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-09-04T13:21:56.185Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-09-04T13:23:13.411Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-09-04T13:24:20.778Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1_VBdOXuV.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-09-04T13:24:40.407Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1_iqEL2MP.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-09-04T13:28:00.557Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-09-04T13:31:42.439Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — 2 серия [Ancord] — videos/2.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\", \"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-09-04T13:31:54.575Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "5",
+    "object_repr": "Наруто — Сезон 1 — 1 серия [2x2] — videos/Naruto_001.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\", \"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-09-04T13:37:21.735Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-09-04T13:40:39.782Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — 2 серия [Ancord] — videos/2.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-09-04T13:41:18.790Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "5",
+    "object_repr": "Наруто — Сезон 1 — 1 серия [2x2] — videos/Naruto_001.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-09-04T13:41:40.289Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Сезон 2 — 54 серия [Ancord] — videos/54.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-09-04T14:12:49.424Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 серия [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-09-04T14:14:00.772Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-09-04T14:23:18.897Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-09-04T14:23:32.361Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — 2 серия [Ancord] — videos/2.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-09-04T14:24:59.533Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Фильм 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-09-04T14:25:23.266Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "9",
+    "object_repr": "Наруто — Фильм 2 — 2 Фильм",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-09-04T14:25:33.584Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "9",
+    "object_repr": "Наруто — Фильм 2 — 2 Фильм [Дубляж]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-09-04T14:26:12.083Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "9",
+    "object_repr": "Наруто — Фильм 2 — 2 Фильм [Дубляж] — videos/naruto_movie_2.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-09-04T14:32:30.519Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "5",
+    "object_repr": "Наруто — Сезон 1 — 1 серия [2x2] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-09-04T14:33:21.263Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "9",
+    "object_repr": "Наруто — Фильм 2 — 2 Фильм [Дубляж] — videos/naruto_movie_2.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-09-04T14:34:12.900Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-09-04T14:34:28.016Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-09-04T14:35:43.892Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-09-04T14:39:07.942Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1_3dmaNEw.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-09-04T14:39:49.272Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-09-04T14:42:15.148Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-09-04T14:46:04.614Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1_19jIRDM.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-09-04T14:47:31.895Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-09-04T14:48:00.937Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "9",
+    "object_repr": "Наруто — Фильм 2 — 2 Фильм [Дубляж] — videos/naruto_movie_2.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-09-04T14:53:32.236Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "9",
+    "object_repr": "Наруто — Фильм 2 — 2 Фильм",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-09-04T14:53:47.149Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Фильм 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-09-04T14:54:26.011Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-09-04T14:55:13.087Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "10",
+    "object_repr": "Наруто — Фильм 2 — 1 Фильм",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-09-04T14:55:36.931Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "voiceover"
+    ],
+    "object_id": "10",
+    "object_repr": "Наруто — Фильм 2 — 1 Фильм [Дубляж]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-09-04T14:56:16.902Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "9",
+    "object_repr": "Стальной алхимик — Сезон 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-09-04T14:56:59.888Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "8",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-09-04T15:01:29.232Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "10",
+    "object_repr": "Наруто — Фильм 2 — 1 Фильм [Дубляж] — videos/griffins.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-09-04T15:02:38.904Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "10",
+    "object_repr": "Наруто — Фильм 2 — 1 Фильм [Дубляж] — videos/griffins.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2025-09-04T15:03:03.006Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "11",
+    "object_repr": "Наруто — Фильм 2 — 1 Фильм [Дубляж] — videos/griffins.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2025-09-04T15:10:40.775Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "11",
+    "object_repr": "Наруто  — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2025-09-04T15:12:48.346Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "episode"
+    ],
+    "object_id": "10",
+    "object_repr": "Наруто  — 2 Фильм",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u043e\\u043c\\u0435\\u0440 \\u0441\\u0435\\u0440\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2025-09-04T15:13:37.941Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "11",
+    "object_repr": "Наруто  — 2 Фильм [Дубляж] — videos/naruto_movie_2.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2025-09-04T15:14:07.543Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "12",
+    "object_repr": "Наруто  — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2025-09-04T15:23:11.882Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "12",
+    "object_repr": "Наруто —  — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2025-09-04T15:23:11.882Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "11",
+    "object_repr": "Наруто —  — 2 Фильм [Дубляж] — videos/naruto_movie_2.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2025-09-04T15:23:11.882Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "7",
+    "object_repr": "Наруто — Сезон 2 — 54 серия [Ancord] — videos/54.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2025-09-04T15:23:11.882Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "6",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 серия [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2025-09-04T15:23:11.882Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "5",
+    "object_repr": "Наруто — Сезон 1 — 1 серия [2x2] — videos/Naruto_movie_1.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2025-09-04T15:23:11.882Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "4",
+    "object_repr": "Наруто — Сезон 2 — 2 серия [Ancord] — videos/2.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2025-09-04T15:23:11.882Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2025-09-04T15:23:21.738Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "13",
+    "object_repr": "Наруто — Сезон 2 — 1 серия [Ancord] — videos/1.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2025-09-04T16:02:24.918Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "14",
+    "object_repr": "1Наруто — Сезон 2 — 2 серия [Ancord] — videos/2.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2025-09-04T16:05:12.534Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "15",
+    "object_repr": "1Наруто — Сезон 2 — 54 серия [Ancord] — videos/54.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2025-09-04T16:05:36.590Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "16",
+    "object_repr": "6Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2025-09-04T16:12:35.101Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "9",
+    "object_repr": "9Стальной алхимик — Сезон 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2025-09-04T16:21:55.490Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "16",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2025-09-04T16:22:23.918Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "16",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2025-09-04T16:23:36.566Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "16",
+    "object_repr": "Наруто — Фильм 1 — 1 Фильм [Дубляж] — videos/Naruto_movie_1_VaJo9Oh.mp4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0438\\u0434\\u0435\\u043e \\u0444\\u0430\\u0439\\u043b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2025-09-05T11:57:42.649Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "17",
+    "object_repr": "Наруто — Сезон 1 — 1 серия [2x2] — videos/Naruto_001.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2025-09-05T12:01:46.757Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "18",
+    "object_repr": "Стальной алхимик — Сезон 1 — 1 серия [Дубляж] — videos/Стальной_Алхимик-1.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2025-09-05T12:14:06.387Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2025-09-05T12:14:19.483Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "season"
+    ],
+    "object_id": "1",
+    "object_repr": "Наруто — Сезон 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2025-09-05T12:18:37.070Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "main",
+      "videoquality"
+    ],
+    "object_id": "19",
+    "object_repr": "Наруто — Фильм 2 — 2 Фильм [Дубляж] — videos/naruto_movie_2.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
