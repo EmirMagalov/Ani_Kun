@@ -7,6 +7,8 @@ from django.views.decorators.cache import cache_page
 from django.db.models import Case, When, Value, IntegerField, Count
 from rest_framework import filters,viewsets
 from .serializers import *
+from django.contrib.auth.models import User
+from rest_framework.permissions import AllowAny, IsAuthenticated
 # Create your views here.
 
 def test(request):
@@ -117,3 +119,22 @@ class VideoViewSet(viewsets.ModelViewSet):
             "anime_id":season.anime.pk
         })
 
+
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+
+    def get_serializer_class(self):
+        if self.action == "create":  # регистрация
+            return RegisterSerializer
+        return RegisterSerializer  # или свой сериализатор для чтения
+
+    def get_permissions(self):
+        if self.action == "create":  # регистрация доступна всем
+            return [AllowAny()]
+        return [IsAuthenticated()]  # остальные действия только для авторизованных
+
+    @action(detail=False, methods=["get"], permission_classes=[IsAuthenticated])
+    def me(self, request):
+        """Возвращает текущего авторизованного пользователя"""
+        serializer = self.get_serializer(request.user)
+        return Response(serializer.data)

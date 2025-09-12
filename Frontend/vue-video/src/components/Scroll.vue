@@ -1,6 +1,28 @@
 <script setup>
+import axios from 'axios'
 import { ref, computed, inject } from 'vue'
-const iconVolume = inject('iconVolume')
+const userData = inject('userData')
+const userAunth = inject('userAunth')
+import { useRouter } from 'vue-router'
+import { API_BASE_URL } from '@/config'
+const router = useRouter()
+const logout = async () => {
+  const token = localStorage.getItem('token')
+  await axios.post(
+    `${API_BASE_URL}/auth/token/logout/`,
+    {},
+    {
+      headers: {
+        Authorization: `Token ${token}`,
+      },
+    },
+  )
+  localStorage.removeItem('token')
+
+  if (userAunth) userAunth.value = false // если используешь provide/inject
+  if (userData) userData.value = null
+  router.push('/')
+}
 const props = defineProps({
   scrollState: Boolean,
   iconVolume: Boolean,
@@ -22,18 +44,17 @@ const handleCheck = (e) => {
   emit('update:iconVolume', e.target.checked)
   scrollButton()
 }
-
 </script>
 
 <template>
   <div @click="scrollButton">
-    <img :src="openOption" class="h-50 xl:h-90" alt="" />
+    <img :src="openOption" class="h-60 xl:h-90 lg:h-80 md:h-70" alt="" />
   </div>
 
   <!-- Анимация появления меню -->
   <transition name="fade">
     <div v-show="scrollMenu" class="absolute left-[25%] top-[20%]">
-      <div class="flex flex-col text-md xl:text-2xl font-bold gap-4">
+      <div class="flex flex-col text-md md:text-xl lg:text-xl xl:text-2xl font-bold gap-3">
         <RouterLink active-class="text-[#c23734]" to="/">
           <h1 class="hover:text-[#c23734] inline-block">Аниме</h1>
         </RouterLink>
@@ -41,13 +62,17 @@ const handleCheck = (e) => {
           <h1 class="hover:text-[#c23734] inline-block">Просмотренные</h1>
         </RouterLink>
         <div class="flex gap-3 items-center">
-          <input
-            type="checkbox"
-            :checked="props.iconVolume"
-            @change="handleCheck"
-          />
+          <input type="checkbox" :checked="props.iconVolume" @change="handleCheck" />
 
           <label for="checkbox">Проигрывание иконки</label>
+        </div>
+        <div v-if="!userAunth">
+          <RouterLink to="/login">
+            <h1 class="hover:text-[#c23734] inline-block">Вход</h1>
+          </RouterLink>
+        </div>
+        <div v-else>
+          <h1 @click="logout" class="cursor-pointer hover:text-[#c23734] inline-block">Выход</h1>
         </div>
       </div>
     </div>

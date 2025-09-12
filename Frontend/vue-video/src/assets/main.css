@@ -12,3 +12,4 @@ body {
 .hoverImg img:not([disabled]):hover {
   cursor: pointer;
 }
+

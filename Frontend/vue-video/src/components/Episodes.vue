@@ -1,21 +1,32 @@
 <script setup>
 import axios from 'axios'
-import { ref, onMounted, watch, computed } from 'vue'
+import { ref, onMounted, watch, computed, inject } from 'vue'
 import { useRoute } from 'vue-router'
 import Video from './Video.vue'
 import { API_BASE_URL } from '@/config.js'
 import { Ngin_Base_URL } from '@/config.js'
+
+const props = defineProps({
+  seasonId: Number,
+})
+
+
+
 const route = useRoute()
+const routeParams = route.params
+
+
 const episode = ref()
 const video_url = ref()
 const path = ref()
-const saved = JSON.parse(localStorage.getItem(`episode-${route.params.id}`) || '{}')
+const saved = JSON.parse(localStorage.getItem(`episode-${routeParams.id}`) || '{}')
 const epNumper = ref(saved.episode ? Number(saved.episode) : 1)
 const epAll = ref([])
 const episodesDataRef = ref([])
 const dropdownOpen = ref(false)
 const playVideo = ref(true)
-
+const userData = inject('userData')
+const usernameForRoom = computed(() => userData?.value?.username || 'Null')
 function saveEpisodeProgress(seasonId, episodeNumber) {
   console.log(seasonId)
   const key = `episode-${seasonId}`
@@ -33,15 +44,14 @@ function saveEpisodeProgress(seasonId, episodeNumber) {
 
 onMounted(async () => {
   try {
-    const { data } = await axios.get(`${API_BASE_URL}/episodes/eps/?season=${route.params.id}`)
+    const { data } = await axios.get(`${API_BASE_URL}/episodes/eps/?season=${routeParams.id}`)
     episodesDataRef.value = data
 
     epAll.value = data.map((ep) => ep.number)
 
     episode.value = data.find((ep) => ep.number === epNumper.value)
     if (!episode.value) {
-     
-      episode.value = data[0] || null 
+      episode.value = data[0] || null
     }
     await loadVideo()
   } catch (err) {
@@ -54,9 +64,8 @@ const loadVideo = async () => {
   if (!episode.value) return
   try {
     const { data } = await axios.get(
-      `${API_BASE_URL}/video_url/get_video/?episode_number=${episode.value.number}&season_id=${route.params.id}`,
+      `${API_BASE_URL}/video_url/get_video/?episode_number=${episode.value.number}&season_id=${routeParams.id}`,
     )
-    console.log(data)
     video_url.value = data
     if (video_url.value?.video_file) {
       path.value = `${Ngin_Base_URL}/media/videos/episode_${video_url.value.video_id}/master.m3u8`
@@ -97,29 +106,28 @@ const nextEpisode = async (player = null) => {
 }
 
 watch(
-  () => route.params.id,
+  () => routeParams.id,
   async (newId) => {
-    if (!newId) return;
+    if (!newId) return
 
     // Загружаем новые эпизоды сезона
     try {
-      const { data } = await axios.get(`${API_BASE_URL}/episodes/eps/?season=${newId}`);
-      episodesDataRef.value = data;
-      epAll.value = data.map((ep) => ep.number);
+      const { data } = await axios.get(`${API_BASE_URL}/episodes/eps/?season=${newId}`)
+      episodesDataRef.value = data
+      epAll.value = data.map((ep) => ep.number)
 
       // Восстанавливаем прогресс из localStorage
-      const saved = JSON.parse(localStorage.getItem(`episode-${newId}`) || '{}');
-      epNumper.value = saved.episode ? Number(saved.episode) : 1;
+      const saved = JSON.parse(localStorage.getItem(`episode-${newId}`) || '{}')
+      epNumper.value = saved.episode ? Number(saved.episode) : 1
 
-      episode.value = data.find((ep) => ep.number === epNumper.value) || data[0] || null;
+      episode.value = data.find((ep) => ep.number === epNumper.value) || data[0] || null
       playVideo.value = false
-      await loadVideo(); // загружаем видео для нового эпизода
+      await loadVideo() // загружаем видео для нового эпизода
     } catch (err) {
-      console.log(err);
+      console.log(err)
     }
-  }
-);
-
+  },
+)
 </script>
 
 <template>
@@ -139,13 +147,27 @@ watch(
           }}
         </h1>
         <div class="mb-10">
-          <RouterLink :to="{ name: 'Seasons', params: { id: video_url.anime_id } }">
-            <div
-              class="mt-5 inline-block bg-[#cba061] hover:opacity-80 text-white px-4 py-2 rounded-lg"
+          <div class="flex gap-5 items-center">
+            <RouterLink :to="{ name: 'Seasons', params: { id: video_url.anime_id } }">
+              <div
+                class="gap-10 mt-5 bg-[#cba061] text-white px-4 py-2 rounded-lg hover:bg-[#c23734]"
+              >
+                <p class="truncate text-center">К сезонам</p>
+              </div>
+            </RouterLink>
+            <RouterLink
+              :to="{
+                name: 'Room',
+                params: { username: usernameForRoom, seasonId: video_url.season_id },
+              }"
             >
-              К сезонам
-            </div>
-          </RouterLink>
+              <div
+                class="gap-10 mt-5 bg-[#cba061] text-white px-4 py-2 rounded-lg hover:bg-[#c23734]"
+              >
+                <p class="truncate text-center">Совместный просмотр</p>
+              </div>
+            </RouterLink>
+          </div>
           <div v-if="video_url.type === 'season'" class="z-10 w-24 mt-5">
             <button
               @click="dropdownOpen = !dropdownOpen"

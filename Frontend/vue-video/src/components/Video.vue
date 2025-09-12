@@ -55,7 +55,7 @@ onMounted(() => {
         'duration', // 👈
         // 'rewind',
         // 'fast-forward',
-
+        'mute',
         'volume',
 
         'settings',
@@ -251,7 +251,9 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <video tabindex="0" ref="videoRef" playsinline controls></video>
+  <div class="player1">
+    <video tabindex="0" ref="videoRef" playsinline controls></video>
+  </div>
 </template>
 
 <style>
@@ -343,13 +345,13 @@ onBeforeUnmount(() => {
   color: white;
 }
 
-.plyr {
+.player1 .plyr {
   width: 800px; /* для десктопа */
   height: 500px;
 }
 
 @media screen and (max-width: 768px) {
-  .plyr {
+  .player1 .plyr {
     width: 100%; /* для телефонов */
     height: 100%;
   }

@@ -5,6 +5,35 @@ import Footer from './components/Footer.vue'
 import { provide, ref, computed, onMounted, watch, inject } from 'vue'
 import { useRoute } from 'vue-router'
 import Scroll from './components/Scroll.vue'
+import { API_BASE_URL } from '@/config'
+import axios from 'axios'
+const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+
+const userLoaded = ref(false)
+const userData = ref(null)
+const userAunth = ref(false)
+provide('userData', userData)
+provide('userAunth', userAunth)
+provide('userLoaded', userLoaded)
+provide('isTouchDevice', isTouchDevice)
+onMounted(async () => {
+  try {
+    const token = localStorage.getItem('token')
+    const { data } = await axios.get(`${API_BASE_URL}/auth/users/me`, {
+      headers: {
+        Authorization: `Token ${token}`,
+      },
+    })
+
+    userData.value = data
+    console.log(userData.value)
+    userAunth.value = true
+  } catch (err) {
+    console.error('Ошибка:', err)
+  } finally {
+    userLoaded.value = true // данные загружены, независимо от результата
+  }
+})
 
 const route = useRoute()
 const mgSharingan = ref(false)
@@ -20,6 +49,7 @@ let timerId = null
 const scrollY = ref(0)
 const audio = new Audio('/sharingan.mp3')
 const iconVolume = ref(JSON.parse(localStorage.getItem('iconVolume') || 'true'))
+
 provide('iconVolume', iconVolume)
 
 const handleScroll = () => {
@@ -77,7 +107,6 @@ const mousEleave = () => {
 //     }
 //   },
 // )
-const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
 
 const iconSrc = computed(() => (mgSharingan.value ? hoverSrc : normalSrc))
 
@@ -153,7 +182,7 @@ const scrollToTop = () => {
     </RouterLink>
   </div>
 
-  <main class="m-auto pt-5 pb-30 bg-black/80 rounded-xl mt-10 w-full xl:w-[80%]">
+  <main class="m-auto pt-5 pb-10 bg-black/80 rounded-xl mt-10 w-full xl:w-[80%]">
     <RouterView />
   </main>
   <div v-show="kunai_show" class="w-15 fixed right-0 bottom-0 md:w-25 xl:w-25">

@@ -32,3 +32,27 @@ class VideoQualitySerializer(serializers.ModelSerializer):
     class Meta:
         model=VideoQuality
         fields="__all__"
+
+
+from rest_framework import serializers
+from django.contrib.auth.models import User
+from rest_framework_simplejwt.tokens import RefreshToken
+
+class RegisterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ("username", "email", "password")
+        extra_kwargs = {"password": {"write_only": True}}
+
+    def create(self, validated_data):
+        user = User.objects.create_user(**validated_data)
+        return user
+
+    def to_representation(self, instance):
+        refresh = RefreshToken.for_user(instance)
+        return {
+            "username": instance.username,
+            "email":instance.email,
+            "access": str(refresh.access_token),
+            "refresh": str(refresh),
+        }
