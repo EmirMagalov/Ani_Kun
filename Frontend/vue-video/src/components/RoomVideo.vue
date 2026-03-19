@@ -10,67 +10,52 @@ import { Ngin_Base_URL } from '@/config.js'
 let player_room
 
 let hls = null
-const episodesDataRef = ref([])
-const epAll = ref([])
-const video_url = ref()
-const path = ref()
+const path = ref('')
 const videoRef = ref(null)
-const episode = ref()
 
 const props = defineProps({
+  path: String,
   seasonId: Number,
   sendAction: Function,
   videoEvents: Array,
   currentTimeHandler: Function,
   time: Object,
 })
+
 const timeRef = toRef(props, 'time')
 const sendAction = props.sendAction
 
-// Обработка входящих событий WebSocket
-// watch(
-//   () => props.videoEvents,
-//   (newEvents) => {
-//     if (!player_room || !newEvents.length) return
-//     const event = newEvents[newEvents.length - 1] // Последнее событие
-//     if (event.user === player_room.user) return // Игнорируем свои события
+watch(
+  () => props.videoEvents.slice(), // создаём копию массива для срабатывания watch
+  (events) => {
+    if (!events.length) return
+    const lastEvent = events[events.length - 1] // берём последнее событие
+    console.log(lastEvent)
+    if (lastEvent.action === 'pause_all' && player_room) {
+      player_room.pause()
+      if (lastEvent.pause) {
+        if (lastEvent.time) player_room.currentTime = Math.floor(lastEvent.time)
+        sendAction('time_update', { time: player_room.currentTime, pause: true })
+      } else {
+        if (lastEvent.time) player_room.currentTime = Math.floor(lastEvent.time)
+        sendAction('time_update', { time: player_room.currentTime })
+        setTimeout(() => {
+          player_room.play()
+        }, 1500)
+      }
+    }
+  },
+  { deep: true },
+)
 
-//     switch (event.action) {
-//       case 'synchron':
-//         console.log(event.time)
-
-//         if (event.time !== 'Pause') {
-//           if (event.time) player_room.currentTime = event.time
-//           player_room.play()
-//         } else {
-//           player_room.pause()
-//         }
-//         // case 'play':
-//         //   if (!player_room.playing) {
-//         //     isLocalEvent.value = true // Отключаем отправку события
-//         //     player_room.play().catch(() => console.log('Автозапуск заблокирован браузером'))
-//         //     if (event.time) player_room.currentTime = event.time
-//         //   }
-//         //   break
-//         // case 'pause':
-//         //   if (player_room.playing) {
-//         //     isLocalEvent.value = true
-//         //     player_room.pause()
-//         //     if (event.time) player_room.currentTime = event.time
-//         //   }
-//         //   break
-//         // case 'seek':
-//         //   if (Math.abs(player_room.currentTime - event.time) > 1) {
-//         //     isLocalEvent.value = true
-//         //     player_room.currentTime = event.time
-//         //   }
-//         break
-//     }
-//   },
-//   { deep: true },
-// )
-
-onMounted(async () => {
+watch(
+  () => props.path,
+  (newPath) => {
+    if (!newPath) return
+    initPlayer(newPath)
+  },
+)
+const initPlayer = (path) => {
   if (player_room) {
     player_room.destroy()
     player_room = null
@@ -79,28 +64,15 @@ onMounted(async () => {
     hls.destroy()
     hls = null
   }
-  console.log(props.seasonId)
-  try {
-    const { data } = await axios.get(`${API_BASE_URL}/episodes/eps/?season=${props.seasonId}`)
-    episodesDataRef.value = data
-    epAll.value = data.map((ep) => ep.number)
-    episode.value = data.find((ep) => ep.number === 1)
-    console.log(episode.value)
-    if (!episode.value) {
-      episode.value = data[0] || null
-    }
-    await loadVideo()
-  } catch (err) {
-    console.log(err)
-  }
-  if (!videoRef.value || !path.value) return
+
+  if (!videoRef.value || !path) return
 
   if (Hls.isSupported()) {
     hls = new Hls()
-    hls.loadSource(path.value)
+    hls.loadSource(path)
     hls.attachMedia(videoRef.value)
   } else if (videoRef.value.canPlayType('application/vnd.apple.mpegurl')) {
-    videoRef.value.src = path.value // ✅ Safari
+    videoRef.value.src = path // ✅ Safari
   }
 
   hls.on(Hls.Events.MANIFEST_PARSED, () => {
@@ -167,20 +139,11 @@ onMounted(async () => {
       attributeFilter: ['class'],
     })
   })
-})
-watch(timeRef, () => {
-  const timeObj = timeRef.value
+}
+// const time = (time, pause) => {
+//   const timeObj = time
 
-  if (timeObj.pause) {
-    if (!player_room.paused) player_room.pause()
-    if (timeObj.time) player_room.currentTime = Math.floor(timeObj.time)
-    sendAction('time_update', { time: player_room.currentTime, pause: true })
-  } else {
-    player_room.play()
-    if (timeObj.time) player_room.currentTime = Math.floor(timeObj.time) + 1.5
-    sendAction('time_update', { time: player_room.currentTime })
-  }
-})
+// }
 const syncInterval = setInterval(() => {
   if (player_room && player_room.playing) {
     sendAction('time_update', { time: player_room.currentTime })
@@ -189,24 +152,8 @@ const syncInterval = setInterval(() => {
 
 onBeforeUnmount(() => {
   if (player_room) player_room.destroy()
-  if (player_room) player_room.destroy()
   clearInterval(syncInterval)
 })
-
-const loadVideo = async () => {
-  if (!episode.value) return
-  try {
-    const { data } = await axios.get(
-      `${API_BASE_URL}/video_url/get_video/?episode_number=${episode.value.number}&season_id=${props.seasonId}`,
-    )
-    video_url.value = data
-    if (video_url.value?.video_file) {
-      path.value = `${Ngin_Base_URL}/media/videos/episode_${video_url.value.video_id}/master.m3u8`
-    }
-  } catch (err) {
-    console.log(err)
-  }
-}
 </script>
 
 <template>

@@ -70,10 +70,13 @@ class EpisodeViewSet(viewsets.ModelViewSet):
     @action(detail=False, methods=["get"])
     def eps(self, request):
         season_id = request.query_params.get("season")
+        number = request.query_params.get("number")
         if not season_id:
             return Response({"error": "Не указан season id"}, status=400)
-
-        videos = Episode.objects.filter(season_id=season_id)
+        if number:
+            videos = Episode.objects.filter(season_id=season_id,number=number)
+        else:
+            videos = Episode.objects.filter(season_id=season_id)
         serializer = EpisodeSerializer(videos, many=True, context={"request": request})
         return Response(serializer.data)
 

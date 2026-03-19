@@ -10,17 +10,14 @@ const props = defineProps({
   seasonId: Number,
 })
 
-
-
 const route = useRoute()
 const routeParams = route.params
-
 
 const episode = ref()
 const video_url = ref()
 const path = ref()
 const saved = JSON.parse(localStorage.getItem(`episode-${routeParams.id}`) || '{}')
-const epNumper = ref(saved.episode ? Number(saved.episode) : 1)
+const epNumber = ref(saved.episode ? Number(saved.episode) : 1)
 const epAll = ref([])
 const episodesDataRef = ref([])
 const dropdownOpen = ref(false)
@@ -49,7 +46,7 @@ onMounted(async () => {
 
     epAll.value = data.map((ep) => ep.number)
 
-    episode.value = data.find((ep) => ep.number === epNumper.value)
+    episode.value = data.find((ep) => ep.number === epNumber.value)
     if (!episode.value) {
       episode.value = data[0] || null
     }
@@ -76,7 +73,7 @@ const loadVideo = async () => {
 }
 
 const selectEpisode = async (num) => {
-  epNumper.value = num
+  epNumber.value = num
   saveEpisodeProgress(video_url.value.season_id, num)
   episode.value = episodesDataRef.value.find((ep) => ep.number === num)
   await loadVideo()
@@ -93,7 +90,7 @@ const nextEpisode = async (player = null) => {
 
   if (nextEp) {
     playVideo.value = true
-    epNumper.value = nextEp.number
+    epNumber.value = nextEp.number
     episode.value = nextEp
 
     await loadVideo()
@@ -118,9 +115,9 @@ watch(
 
       // Восстанавливаем прогресс из localStorage
       const saved = JSON.parse(localStorage.getItem(`episode-${newId}`) || '{}')
-      epNumper.value = saved.episode ? Number(saved.episode) : 1
+      epNumber.value = saved.episode ? Number(saved.episode) : 1
 
-      episode.value = data.find((ep) => ep.number === epNumper.value) || data[0] || null
+      episode.value = data.find((ep) => ep.number === epNumber.value) || data[0] || null
       playVideo.value = false
       await loadVideo() // загружаем видео для нового эпизода
     } catch (err) {
@@ -132,8 +129,8 @@ watch(
 
 <template>
   <div class="relative flex text-white flex-col items-center justify-center m-b">
-    <div v-if="episode" class="p-5">
-      <div class="">
+    <div v-if="episode && video_url" class="p-5">
+      <div>
         <h1 class="text-3xl font-bold text-center mb-5 text-shadow-md text-shadow-[#cba061]">
           {{ video_url.anime_name }}
         </h1>
@@ -158,7 +155,11 @@ watch(
             <RouterLink
               :to="{
                 name: 'Room',
-                params: { username: usernameForRoom, seasonId: video_url.season_id },
+                params: {
+                  username: usernameForRoom,
+                  seasonId: video_url.season_id,
+                  episodeNumber: epNumber,
+                },
               }"
             >
               <div
@@ -176,7 +177,7 @@ watch(
                 dropdownOpen ? 'bg-[#cba061]' : 'hover:bg-[#c23734] hover:opacity-100',
               ]"
             >
-              {{ epNumper }} серия
+              {{ epNumber }} серия
             </button>
 
             <ul
@@ -189,7 +190,7 @@ watch(
                 @click="selectEpisode(ep)"
                 :class="[
                   'cursor-pointer whitespace-nowrap px-4 py-2',
-                  ep === epNumper ? 'bg-[#A0A0A0]' : 'bg-[#cba061] hover:bg-[#c23734]',
+                  ep === epNumber ? 'bg-[#A0A0A0]' : 'bg-[#cba061] hover:bg-[#c23734]',
                 ]"
               >
                 {{ ep }} серия
@@ -210,14 +211,6 @@ watch(
         :playVideo="playVideo"
         :saveEpisodeProgress="saveEpisodeProgress"
       />
-      <!-- <div v-if="hasNextEpisode && showNext" class="relative">
-        <button
-          @click="nextEpisode"
-          class="bg-[#cba061] absolute bottom-15 right-2 text-white px-4 py-2 rounded-lg opacity-80 hover:opacity-100 z-50"
-        >
-          Следующая серия
-        </button>
-      </div> -->
     </div>
   </div>
 </template>

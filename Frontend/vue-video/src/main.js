@@ -11,18 +11,14 @@ import Room from './components/Room.vue'
 import Registration from './components/Registration.vue'
 import Login from './components/Login.vue'
 
-
-
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/seasons/:id', name: 'Seasons', component: Seasons },
   { path: '/episodes/:id', name: 'Episodes', component: Episodes },
   { path: '/looks', name: 'Looks', component: LooksAnime },
-  { path: '/room_name/:username/:seasonId', name: 'Room', component: Room },
+  { path: '/room_name/:username/:seasonId/:episodeNumber', name: 'Room', component: Room },
   { path: '/registration', name: 'Registration', component: Registration },
   { path: '/login', name: 'Login', component: Login },
-  
-
 ]
 const router = createRouter({
   history: createWebHistory(),

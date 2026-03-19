@@ -11,5 +11,5 @@ cd taskmanager
 
 start cmd /k celery -A taskmanager worker --pool=solo --loglevel=info
 
-start cmd /k python manage.py runserver 0.0.0.0:8000
+#start cmd /k python manage.py runserver 0.0.0.0:8000
 

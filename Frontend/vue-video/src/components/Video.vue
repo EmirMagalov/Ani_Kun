@@ -4,7 +4,7 @@ import Plyr from 'plyr'
 import Hls from 'hls.js'
 import 'plyr/dist/plyr.css'
 const savedTimes = {}
-
+const savedScroll = ref(0)
 const videoRef = ref(null)
 let player
 let hls = null
@@ -82,6 +82,12 @@ onMounted(() => {
 
       if (e.code === 'KeyF') {
         player.fullscreen.toggle()
+      }
+    })
+
+    player.on('exitfullscreen', () => {
+      if (videoRef.value) {
+        videoRef.value.scrollIntoView({ behavior: 'auto', block: 'start' })
       }
     })
     const pauseButton = document.createElement('button')
